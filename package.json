@@ -1,0 +1,23 @@
+{
+  "name": "learning-graphql-and-relay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanbarreto/learning-graphql-and-relay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanbarreto/learning-graphql-and-relay/issues"
+  },
+  "homepage": "https://github.com/ivanbarreto/learning-graphql-and-relay#readme",
+  "dependencies": {
+    "graphql": "^14.3.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
