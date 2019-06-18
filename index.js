@@ -1,7 +1,7 @@
 const {graphql} = require('graphql');
 const readline = require('readline');
 
-const mySchema = require('.schema/main');
+const mySchema = require('./schema/main');
 const rli = readline.createInterface({
     input: process.stdin,
     output: process.stdout

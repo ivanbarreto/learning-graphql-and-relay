@@ -4,10 +4,6 @@ const {
     GraphQLString
 } = require('graphql');
 
-const mySchema = new GraphQLSchema({
-    query: queryType
-});
-
 const queryType = new GraphQLObjectType({
     name: 'RootQuery',
     fields: {
@@ -16,6 +12,10 @@ const queryType = new GraphQLObjectType({
             resolve: () => 'world'
         }
     }
+});
+
+const mySchema = new GraphQLSchema({
+    query: queryType
 });
 
 module.exports = mySchema;
