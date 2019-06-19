@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/ivanbarreto/learning-graphql-and-relay#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
     "graphql": "^14.3.1",
     "mongodb": "^3.2.7"
   },
